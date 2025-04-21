@@ -1,4 +1,3 @@
-
 import { z } from 'zod';
 
 export interface IngestorMetadata {
@@ -49,5 +48,10 @@ export abstract class BaseIngestor {
     }
 
     return result;
+  }
+
+  public async loadDataAndPreprocess(data: any): Promise<any> {
+    const loadedData = await this.loadData(data);
+    return this.preprocess(loadedData);
   }
 }

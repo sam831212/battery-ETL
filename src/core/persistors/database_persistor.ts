@@ -1,37 +1,50 @@
 import { BasePersistor } from "./base_persistor";
 
 // Example: Using SQLite for demonstration; replace with actual DB logic as needed
-import Database from "better-sqlite3";
+import { Pool } from "pg";
 
 export class DatabasePersistor<T = any> implements BasePersistor<T> {
-  private db: Database.Database;
+  private pool: Pool;
   private tableName: string;
 
-  constructor(dbPath: string, tableName: string) {
-    this.db = new Database(dbPath);
+  constructor(connectionString: string, tableName: string) {
+    this.pool = new Pool({
+      connectionString,
+    });
     this.tableName = tableName;
-    // You may want to create the table if it doesn't exist
-    // This is a placeholder; adjust schema as needed
-    this.db.prepare(`CREATE TABLE IF NOT EXISTS ${this.tableName} (id INTEGER PRIMARY KEY AUTOINCREMENT, data TEXT)`).run();
+    
+    // Create table if it doesn't exist
+    this.pool.query(`CREATE TABLE IF NOT EXISTS ${this.tableName} (id SERIAL PRIMARY KEY, data JSONB)`);
   }
 
   async save(record: T): Promise<void> {
-    const stmt = this.db.prepare(`INSERT INTO ${this.tableName} (data) VALUES (?)`);
-    stmt.run(JSON.stringify(record));
+    await this.pool.query(
+      `INSERT INTO ${this.tableName} (data) VALUES ($1)`,
+      [record]
+    );
   }
 
   async saveBatch(records: T[]): Promise<void> {
-    const insert = this.db.prepare(`INSERT INTO ${this.tableName} (data) VALUES (?)`);
-    const transaction = this.db.transaction((batch: T[]) => {
-      for (const record of batch) {
-        insert.run(JSON.stringify(record));
+    const client = await this.pool.connect();
+    try {
+      await client.query('BEGIN');
+      for (const record of records) {
+        await client.query(
+          `INSERT INTO ${this.tableName} (data) VALUES ($1)`,
+          [record]
+        );
       }
-    });
-    transaction(records);
+      await client.query('COMMIT');
+    } catch (e) {
+      await client.query('ROLLBACK');
+      throw e;
+    } finally {
+      client.release();
+    }
   }
 
   async close(): Promise<void> {
-    this.db.close();
+    await this.pool.end();
   }
 }
 

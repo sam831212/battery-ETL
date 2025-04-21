@@ -99,6 +99,16 @@ export class DataTransformer {
 }
 
 export function transformData(input: any, schema: Record<string, string>) {
+  if (Array.isArray(input)) {
+    return input.map(item => {
+      const result: any = {};
+      for (const key in schema) {
+        result[key] = item[schema[key]];
+      }
+      return result;
+    });
+  }
+  
   const result: any = {};
   for (const key in schema) {
     result[key] = input[schema[key]];
