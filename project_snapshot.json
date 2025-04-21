@@ -1,0 +1,591 @@
+{
+  "core_modules": [
+    {
+      "name": "ModuleRegistry",
+      "type": "class",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/moduleRegistry.ts",
+      "description": " Module registry to keep track of all registered modules of a specific type"
+    },
+    {
+      "name": "that",
+      "type": "class",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/dynamic_loader.ts",
+      "description": "No description available"
+    },
+    {
+      "name": "DynamicLoader",
+      "type": "class",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/dynamic_loader.ts",
+      "description": " Dynamic loader class that handles loading modules from config"
+    },
+    {
+      "name": "ModuleRegistry",
+      "type": "class",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/registry/ModuleRegistry.ts",
+      "description": " Module registry to keep track of all registered module types"
+    }
+  ],
+  "components": [
+    {
+      "name": "SimpleChart",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/visualization/SimpleChart.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ExperimentForm",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/experiment/ExperimentForm.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Calendar",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/calendar.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ContextMenuShortcut",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/context-menu.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "CommandDialog",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/command.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "CommandShortcut",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/command.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Badge",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/badge.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Toaster",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/sonner.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "MenubarShortcut",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/menubar.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "DropdownMenuShortcut",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/dropdown-menu.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Toaster",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/toaster.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Skeleton",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/skeleton.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ChartStyle",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/chart.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ProcessingPipeline",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ProcessingPipeline.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ActionButtons",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ActionButtons.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "FileUpload",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FileUpload.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ConfigSelector",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ConfigSelector.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ValidationResultDisplay",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ValidationResultDisplay.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "FilePreview",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FilePreview.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "DropZone",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/DropZone.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "FileValidation",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FileValidation.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "DataPreviewSection",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/DataPreviewSection.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "SidebarToggleButton",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/SidebarToggleButton.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "MainLayout",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/MainLayout.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "CollapsibleSidebar",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/CollapsibleSidebar.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Sidebar",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/Sidebar.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "ModuleManager",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/settings/ModuleManager.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "StatsCard",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/dashboard/StatsCard.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "StageStatus",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/pipeline/StageStatus.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "PipelineStages",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/pipeline/PipelineStages.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "DataTable",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/data/DataTable.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "IngestorModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/module-decorator.ts",
+      "description": " Decorator for registering ingestor modules @param info - Module metadata @returns Decorator function"
+    },
+    {
+      "name": "ExperimentModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/module-decorator.ts",
+      "description": " Decorator for registering experiment modules @param info - Module metadata @returns Decorator function"
+    },
+    {
+      "name": "PersistorModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/module-decorator.ts",
+      "description": " Decorator for registering persistor modules @param info - Module metadata @returns Decorator function"
+    },
+    {
+      "name": "Experiment",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Experiment.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Database",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Database.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Dashboard",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Index.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "NotFound",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/NotFound.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Visualization",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Visualization.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Settings",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Settings.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "DataUpload",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/DataUpload.tsx",
+      "description": "React component"
+    },
+    {
+      "name": "Pipeline",
+      "file": "/workspaces/Battery-ETL-Visualization/src/pages/Pipeline.tsx",
+      "description": "React component"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "useSidebar",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/sidebar.tsx",
+      "description": "React hook"
+    },
+    {
+      "name": "useCarousel",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/carousel.tsx",
+      "description": "React hook"
+    },
+    {
+      "name": "useFormField",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/form.tsx",
+      "description": "React hook"
+    },
+    {
+      "name": "useChart",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/chart.tsx",
+      "description": "React hook"
+    },
+    {
+      "name": "usePipelineSimulation",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/usePipelineSimulation.ts",
+      "description": "React hook"
+    },
+    {
+      "name": "useToast",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/use-toast.ts",
+      "description": "React hook"
+    },
+    {
+      "name": "useIsMobile",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/use-mobile.tsx",
+      "description": "React hook"
+    }
+  ],
+  "utilities": [
+    {
+      "name": "cn",
+      "file": "/workspaces/Battery-ETL-Visualization/src/lib/utils.ts",
+      "description": "No description available"
+    },
+    {
+      "name": "validateFiles",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FileValidation.tsx",
+      "description": "No description available"
+    },
+    {
+      "name": "loadPipelineConfig",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/configLoader.ts",
+      "description": " Load pipeline configuration from a YAML string @param configYaml - YAML configuration string @returns Parsed configuration object"
+    },
+    {
+      "name": "getAvailableMachineTypes",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/configLoader.ts",
+      "description": " Get all available machine types from the registry @returns Array of machine type names and descriptions"
+    },
+    {
+      "name": "getAvailableExperimentTypes",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/configLoader.ts",
+      "description": " Get all available experiment types from the registry @returns Array of experiment type names and descriptions"
+    },
+    {
+      "name": "getAvailablePersistors",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/configLoader.ts",
+      "description": " Get all available persistence options from the registry @returns Array of persistor names and descriptions"
+    },
+    {
+      "name": "buildPipeline",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/configLoader.ts",
+      "description": " Build a complete processing pipeline from configuration @param config - Pipeline configuration object @returns Array of initialized pipeline stage instances"
+    },
+    {
+      "name": "value",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/utils/preprocessor.ts",
+      "description": " Removes statistical outliers using IQR method"
+    },
+    {
+      "name": "pos",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/utils/preprocessor.ts",
+      "description": " Calculates quantile value for a sorted array"
+    },
+    {
+      "name": "value",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/utils/preprocessor.ts",
+      "description": " Suggests outliers in the data and returns their indices and reasons. Uses IQR method for numeric fields."
+    },
+    {
+      "name": "parseYamlConfig",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/utils/configLoader.ts",
+      "description": "No description available"
+    }
+  ],
+  "types": [
+    {
+      "name": "SimpleChartProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/visualization/SimpleChart.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ExperimentFormProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/experiment/ExperimentForm.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "TextareaProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/textarea.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "CommandDialogProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/command.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "BadgeProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/badge.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ButtonProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/button.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "SheetContentProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/ui/sheet.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ProcessingPipelineProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ProcessingPipeline.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ActionButtonsProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ActionButtons.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "FileUploadProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FileUpload.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "SelectorOption",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ConfigSelector.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ConfigSelectorProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ConfigSelector.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ValidationResultDisplayProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/ValidationResultDisplay.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "FilePreviewProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FilePreview.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DropZoneProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/DropZone.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "FileValidationProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/FileValidation.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DataPreviewProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/upload/DataPreviewSection.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "SidebarToggleButtonProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/SidebarToggleButton.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "MainLayoutProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/layout/MainLayout.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "StatsCardProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/dashboard/StatsCard.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "StageStatusProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/pipeline/StageStatus.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "PipelineStage",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/pipeline/PipelineStages.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "PipelineStagesProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/pipeline/PipelineStages.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DataTableColumn",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/data/DataTable.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DataTableProps",
+      "file": "/workspaces/Battery-ETL-Visualization/src/components/data/DataTable.tsx",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ModuleInfo",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/moduleRegistry.ts",
+      "description": " Module registry for Battery Data Alchemy This module provides functionality to register and manage different types of modules such as data ingestors, experiment types, and data persistors."
+    },
+    {
+      "name": "RegisteredModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/utils/moduleRegistry.ts",
+      "description": " Module registry for Battery Data Alchemy This module provides functionality to register and manage different types of modules such as data ingestors, experiment types, and data persistors."
+    },
+    {
+      "name": "FilterCriteria",
+      "file": "/workspaces/Battery-ETL-Visualization/src/query/filter_criteria.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "PreprocessingOptions",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/utils/preprocessor.ts",
+      "description": " Utility functions for data preprocessing"
+    },
+    {
+      "name": "for",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/persistors/base_persistor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "BasePersistor",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/persistors/base_persistor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "RateCapabilityResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/analytics/AnalyticsModule.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DegradationTrendResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/analytics/AnalyticsModule.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "AnomalyDetectionResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/analytics/AnalyticsModule.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "OCVGenerationResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/analytics/AnalyticsModule.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "return",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/ingestors/ArbinIngestor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "return",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/ingestors/ArbinIngestor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "IngestorMetadata",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/ingestors/BaseIngestor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "IngestorConfig",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/ingestors/BaseIngestor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "DataValidationResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/ingestors/BaseIngestor.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ModuleConstructor",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/interfaces/module.ts",
+      "description": " Core interfaces for module system"
+    },
+    {
+      "name": "RegisteredModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/interfaces/module.ts",
+      "description": " Core interfaces for module system"
+    },
+    {
+      "name": "LoadableModule",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/interfaces/module.ts",
+      "description": " Core interfaces for module system"
+    },
+    {
+      "name": "ExperimentMetadata",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/experiments/BaseExperiment.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "ExperimentConfig",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/experiments/BaseExperiment.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "AnalysisResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/experiments/BaseExperiment.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "async",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/experiments/BaseExperiment.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "CyclingData",
+      "file": "/workspaces/Battery-ETL-Visualization/src/core/experiments/CyclingExperiment.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "PipelineStage",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/usePipelineSimulation.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "UsePipelineSimulationResult",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/usePipelineSimulation.ts",
+      "description": "TypeScript interface"
+    },
+    {
+      "name": "State",
+      "file": "/workspaces/Battery-ETL-Visualization/src/hooks/use-toast.ts",
+      "description": "TypeScript interface"
+    }
+  ]
+}
